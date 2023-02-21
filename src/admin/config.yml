@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: grejojoby/jamstack-blog
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
   
 media_folder: "public/assets/blog"
 public_folder: "/assets/blog"
