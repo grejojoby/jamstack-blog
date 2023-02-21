@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: grejojoby/jamstack-blog
+  name: git-gateway
   branch: main
   
 media_folder: "public/assets/blog"
